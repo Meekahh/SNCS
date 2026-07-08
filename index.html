@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Links</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f4f3ef;
+    color: #2c2c2a;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+  }
+  .container {
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+  }
+  .avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: #d85a30;
+    margin: 0 auto 16px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 24px;
+  }
+  p.subtitle {
+    color: #6b6a66;
+    font-size: 15px;
+    margin: 0 0 32px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .link-card {
+    display: block;
+    background: #ffffff;
+    border: 1px solid #e2e0d8;
+    border-radius: 12px;
+    padding: 16px 20px;
+    text-decoration: none;
+    color: #2c2c2a;
+    font-weight: 500;
+    font-size: 16px;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  .link-card:hover {
+    transform: translateY(-2px);
+    border-color: #b4b2a9;
+  }
+  footer {
+    margin-top: 24px;
+    font-size: 13px;
+    color: #9c9a92;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <img class="avatar" src="SuperNOVALogo.png" alt="SuperNOVA logo">
+    <h1>SuperNOVA Computer Science 2026</h1>
+
+    <div class="links">
+      <a class="link-card" href="SN2026CSOnlineFriendsLinks.html">Online Friends</a>
+      <a class="link-card" href="SN2026CSARDBs.html">Algo-Rhythm</a>
+      <a class="link-card" href="drawflower.py" download>Code-a-Garden</a>
+      <a class="link-card" href="https://colab.research.google.com/drive/1QF_MuSeaupIgE2v5-y5vTQE8Wbe4fpJS?usp=sharing" target="_blank" rel="noopener">Neural Network Training</a>
+    </div>
+
+    <footer>&copy; 2026 SuperNOVA</footer>
+  </div>
+</body>
+</html>
